@@ -559,8 +559,8 @@ nav {
     
 }
 
-.portfolio-list .portf-overlay {
-    color: #ffffff;
+.portf-thumb .portf-overlay {
+    color: #f4f4fd;
 }
 
 .portfolio-list-item:hover .portf-overlay {
@@ -578,6 +578,10 @@ nav {
     padding: 100px 0;
     display: flex;
     
+}
+
+.container .footer-container {
+    margin-right: 120px;
 }
 
 .footer-container {
