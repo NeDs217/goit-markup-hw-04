@@ -545,15 +545,14 @@ nav {
 .portf-overlay {
     position: absolute;
     top: 0;
-    left: 0;
     width: 100%;
     height: 100%;
     padding: 40px 32px;
-    background-color: #4d5ae5;
-    color: var(--text-color-light, #f4f4fd);
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    color: #f4f4fd;
+    background-color: #4d5ae5;
     transform: translateY(100%);
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
     
@@ -577,14 +576,15 @@ nav {
     height: 312px;
     padding: 100px 0;
     display: flex;
+    
 }
 
 .footer-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: start;
-    align-items: center;
-    gap: 120px;
+    align-items: baseline;
+    margin-right: 120px
 }
 
 .accent-footer {
@@ -644,7 +644,12 @@ nav {
 .footer-icon-svg {
     width: 24px;
     height: 24px;
-    fill: var(--white, #f4f4fd);
+    fill: #f4f4fd;
+}
+
+.footer-social .footer-social-title {
+    color: #FFFFFF;
+    margin-bottom: 16px;
 }
 
 /* #endregion footer */
