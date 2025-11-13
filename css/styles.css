@@ -589,6 +589,9 @@ nav {
     flex-wrap: wrap;
     justify-content: start;
     align-items: baseline;
+}
+
+.footer-container>.footer-info {
     margin-right: 120px;
 }
 
